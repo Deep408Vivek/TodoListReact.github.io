@@ -1,0 +1,91 @@
+body{
+  background-color: rgb(7, 14, 62);
+}
+.App {
+  text-align: center;
+}
+.navBar{
+  height: 4rem;
+  background-color: rgb(36, 175, 193);
+  align-items: center;
+}
+.navBar-item{
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  margin-left: 2.3rem;
+}
+.navBar a{
+  text-decoration: none;
+  color: white;
+}
+.navBar-item p{
+  margin-top: 1.3rem;
+}
+.navBar-item h3{
+  margin-top: 0.5rem;
+}
+.navBar-item img{
+  height: 4rem;
+  width: 4rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  color: white;
+}
+.form-label{
+  color: #61dafb;
+}
+
+
+.mb-3 input{
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid grey;
+  border-radius: 0;
+  color: #1ea931;
+}
+.todoItemList h4{
+  color: aqua;
+}
+
+.todoItemList p{
+  color: aquamarine;
+}
+
+.container h3{
+  color: orangered;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
